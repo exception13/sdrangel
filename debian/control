@@ -26,7 +26,21 @@ Build-Depends: debhelper (>= 9),
  libavformat-dev,
  libopus-dev,
  libairspy-dev,
- libhackrf-dev
+ libairspyhf-dev,
+ libbladerf-dev,
+ libhackrf-dev,
+ libiio-dev,
+ liblimesuite-dev,
+ librtlsdr-dev,
+ libsoapysdr-dev,
+ libmirisdr-dev,
+ libxtrx-dev,
+ libxtrxdsp-dev,
+ libxtrxll-dev,
+ libcm256cc-dev,
+ libcodec2-dev,
+ libserialdv-dev,
+ libdsdcc-dev
 # TODO:
 #   - more dependencies based on version; newer has more devices
 #   - manage dependencies not present upstream
